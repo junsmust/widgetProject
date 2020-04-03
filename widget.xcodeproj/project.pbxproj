@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF33B8122436298000985AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33B8112436298000985AFE /* AppDelegate.swift */; };
+		BF33B8142436298000985AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33B8132436298000985AFE /* ViewController.swift */; };
+		BF33B8172436298000985AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF33B8152436298000985AFE /* Main.storyboard */; };
+		BF33B81A2436298000985AFE /* widget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF33B8182436298000985AFE /* widget.xcdatamodeld */; };
+		BF33B81C2436298000985AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF33B81B2436298000985AFE /* Assets.xcassets */; };
+		BF33B81F2436298000985AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF33B81D2436298000985AFE /* LaunchScreen.storyboard */; };
+		BF91B76224363148009E2452 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91B76124363148009E2452 /* NotificationCenter.framework */; };
+		BF91B76524363148009E2452 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91B76424363148009E2452 /* TodayViewController.swift */; };
+		BF91B76824363148009E2452 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF91B76624363148009E2452 /* MainInterface.storyboard */; };
+		BF91B76C24363148009E2452 /* EnsolMj.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF91B75F24363147009E2452 /* EnsolMj.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF91B7722436395E009E2452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF33B81B2436298000985AFE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF91B76A24363148009E2452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF33B8062436297F00985AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF91B75E24363147009E2452;
+			remoteInfo = EnsolMj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF91B77024363148009E2452 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF91B76C24363148009E2452 /* EnsolMj.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF33B80E2436298000985AFE /* widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF33B8112436298000985AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF33B8132436298000985AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF33B8162436298000985AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF33B8192436298000985AFE /* widget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = widget.xcdatamodel; sourceTree = "<group>"; };
+		BF33B81B2436298000985AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF33B81E2436298000985AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF33B8202436298100985AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF33B826243629CA00985AFE /* widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widget.entitlements; sourceTree = "<group>"; };
+		BF91B75F24363147009E2452 /* EnsolMj.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EnsolMj.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF91B76124363148009E2452 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BF91B76424363148009E2452 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BF91B76724363148009E2452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BF91B76924363148009E2452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF91B771243633CE009E2452 /* EnsolMj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnsolMj.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF33B80B2436298000985AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF91B75C24363147009E2452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91B76224363148009E2452 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF33B8052436297F00985AFE = {
+			isa = PBXGroup;
+			children = (
+				BF33B8102436298000985AFE /* widget */,
+				BF91B76324363148009E2452 /* EnsolMj */,
+				BF91B76024363148009E2452 /* Frameworks */,
+				BF33B80F2436298000985AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF33B80F2436298000985AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF33B80E2436298000985AFE /* widget.app */,
+				BF91B75F24363147009E2452 /* EnsolMj.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF33B8102436298000985AFE /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				BF33B826243629CA00985AFE /* widget.entitlements */,
+				BF33B8112436298000985AFE /* AppDelegate.swift */,
+				BF33B8132436298000985AFE /* ViewController.swift */,
+				BF33B8152436298000985AFE /* Main.storyboard */,
+				BF33B81B2436298000985AFE /* Assets.xcassets */,
+				BF33B81D2436298000985AFE /* LaunchScreen.storyboard */,
+				BF33B8202436298100985AFE /* Info.plist */,
+				BF33B8182436298000985AFE /* widget.xcdatamodeld */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		BF91B76024363148009E2452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF91B76124363148009E2452 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF91B76324363148009E2452 /* EnsolMj */ = {
+			isa = PBXGroup;
+			children = (
+				BF91B771243633CE009E2452 /* EnsolMj.entitlements */,
+				BF91B76424363148009E2452 /* TodayViewController.swift */,
+				BF91B76624363148009E2452 /* MainInterface.storyboard */,
+				BF91B76924363148009E2452 /* Info.plist */,
+			);
+			path = EnsolMj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF33B80D2436298000985AFE /* widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF33B8232436298100985AFE /* Build configuration list for PBXNativeTarget "widget" */;
+			buildPhases = (
+				BF33B80A2436298000985AFE /* Sources */,
+				BF33B80B2436298000985AFE /* Frameworks */,
+				BF33B80C2436298000985AFE /* Resources */,
+				BF91B77024363148009E2452 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF91B76B24363148009E2452 /* PBXTargetDependency */,
+			);
+			name = widget;
+			productName = widget;
+			productReference = BF33B80E2436298000985AFE /* widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF91B75E24363147009E2452 /* EnsolMj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF91B76F24363148009E2452 /* Build configuration list for PBXNativeTarget "EnsolMj" */;
+			buildPhases = (
+				BF91B75B24363147009E2452 /* Sources */,
+				BF91B75C24363147009E2452 /* Frameworks */,
+				BF91B75D24363147009E2452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnsolMj;
+			productName = EnsolMj;
+			productReference = BF91B75F24363147009E2452 /* EnsolMj.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF33B8062436297F00985AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "임명준";
+				TargetAttributes = {
+					BF33B80D2436298000985AFE = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					BF91B75E24363147009E2452 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BF33B8092436297F00985AFE /* Build configuration list for PBXProject "widget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF33B8052436297F00985AFE;
+			productRefGroup = BF33B80F2436298000985AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF33B80D2436298000985AFE /* widget */,
+				BF91B75E24363147009E2452 /* EnsolMj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF33B80C2436298000985AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF33B81F2436298000985AFE /* LaunchScreen.storyboard in Resources */,
+				BF33B81C2436298000985AFE /* Assets.xcassets in Resources */,
+				BF33B8172436298000985AFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF91B75D24363147009E2452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91B7722436395E009E2452 /* Assets.xcassets in Resources */,
+				BF91B76824363148009E2452 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF33B80A2436298000985AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF33B8142436298000985AFE /* ViewController.swift in Sources */,
+				BF33B81A2436298000985AFE /* widget.xcdatamodeld in Sources */,
+				BF33B8122436298000985AFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF91B75B24363147009E2452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91B76524363148009E2452 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF91B76B24363148009E2452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF91B75E24363147009E2452 /* EnsolMj */;
+			targetProxy = BF91B76A24363148009E2452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF33B8152436298000985AFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF33B8162436298000985AFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF33B81D2436298000985AFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF33B81E2436298000985AFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BF91B76624363148009E2452 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF91B76724363148009E2452 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF33B8212436298100985AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF33B8222436298100985AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF33B8242436298100985AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = widget/widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3J89BWQWK;
+				INFOPLIST_FILE = widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.junsmust.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF33B8252436298100985AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = widget/widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3J89BWQWK;
+				INFOPLIST_FILE = widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.junsmust.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BF91B76D24363148009E2452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EnsolMj/EnsolMj.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3J89BWQWK;
+				INFOPLIST_FILE = EnsolMj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.junsmust.widget.EnsolMj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF91B76E24363148009E2452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EnsolMj/EnsolMj.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3J89BWQWK;
+				INFOPLIST_FILE = EnsolMj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.junsmust.widget.EnsolMj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF33B8092436297F00985AFE /* Build configuration list for PBXProject "widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF33B8212436298100985AFE /* Debug */,
+				BF33B8222436298100985AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF33B8232436298100985AFE /* Build configuration list for PBXNativeTarget "widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF33B8242436298100985AFE /* Debug */,
+				BF33B8252436298100985AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF91B76F24363148009E2452 /* Build configuration list for PBXNativeTarget "EnsolMj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF91B76D24363148009E2452 /* Debug */,
+				BF91B76E24363148009E2452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF33B8182436298000985AFE /* widget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF33B8192436298000985AFE /* widget.xcdatamodel */,
+			);
+			currentVersion = BF33B8192436298000985AFE /* widget.xcdatamodel */;
+			path = widget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF33B8062436297F00985AFE /* Project object */;
+}
